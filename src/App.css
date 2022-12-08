@@ -126,7 +126,7 @@ li {
   width: 70%;
   border-radius: 25px;
   background-color: rgb(121, 121, 121);
-  font-family: 'Fasthand', cursive;
+  /* font-family: 'Fasthand', cursive; */
   box-shadow: rgba(0, 0, 0, 0.50) 0px 15px 25px, rgba(0, 0, 0, 0.3) 0px 5px 10px;
   overflow: hidden;
 }
@@ -169,6 +169,7 @@ li {
   position: absolute;
   color:rgb(216, 216, 216);
   padding: 20px;
+  font-family: 'Fasthand', cursive;
 }
 
 .blackboard-img {
@@ -194,10 +195,28 @@ li {
 }
 
 form {
+  font-size: 16px;
+  color: rgb(233, 233, 233);
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 10px;
   padding: 20px;
+}
+
+label {
+  padding-block: 5px;
+}
+
+select {
+  width: 70%;
+  min-width: 115px;
+  
+}
+
+.calculate-btn {
+  width: 70%;
+  
+  min-width: 115px;
+  margin-top: 20px;
 }
 
