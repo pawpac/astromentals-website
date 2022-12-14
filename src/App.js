@@ -1,4 +1,5 @@
 import './App.css';
+import Moonapp from './components/Moonapp';
 import Intro from './components/Intro';
 import Navbar from './components/Navbar';
 import Gear from './components/Gear';
@@ -11,6 +12,7 @@ function App() {
       <Intro />
       <Gear />
       <Fiverule />
+      <Moonapp />
     </div>
   );
 }
